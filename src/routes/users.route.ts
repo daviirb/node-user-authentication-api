@@ -1,5 +1,5 @@
-import { Router, Request, Response, NextFunction } from 'express';
-import { StatusCodes } from 'http-status-codes'
+import { NextFunction, Request, Response, Router } from 'express';
+import { StatusCodes } from 'http-status-codes';
 const usersRoute = Router()
 
 usersRoute.get('/users', (req: Request, res: Response, next: NextFunction) => {
